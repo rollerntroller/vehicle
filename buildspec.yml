@@ -13,7 +13,7 @@ phases:
       - java -version
   build:
     commands:
-      - sonar-scanner -Dsonar.login=014ebe2686754a41e769c6eb2bdbfafec4c7a43f -Dsonar.host.url=https://sonarcloud.io -Dsonar.projectKey=karadiakhil_car-rental -Dsonar.organization=karadiakhil
+      - sonar-scanner -Dsonar.login=5abb5785530c2b902dd6935a5d3dedab615cf874 -Dsonar.host.url=https://sonarcloud.io -Dsonar.projectKey=karadiakhil_car-rental -Dsonar.organization=karadiakhil
       - sleep 5
       - curl https://sonarcloud.io/api/qualitygates/project_status?projectKey=karadiakhil_car-rental >result.json
       - cat result.json
