@@ -32,7 +32,7 @@ while ($row=mysqli_fetch_array($ret)) {
         </tr>
    
    <tr>
-                                <th>Parking Number</th>
+                                <th>Parking  number</th>
                                    <td><?php  echo $row['ParkingNumber'];?></td>
                                               
 
